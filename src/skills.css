@@ -1,0 +1,27 @@
+/* styles for dropdown menu */
+.custom-dropdown {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+  color: #586069;
+  width: 150px;
+}
+
+.custom-dropdown option {
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e4e8;
+  color: #24292e;
+}
+
+/* color for selected menu item  */
+.custom-dropdown option:checked {
+  background-color: #e1e4e8;
+}
+
+/* shaded grey effect */
+.dropdown-item:hover {
+  background-color: #f6f8fa;
+}

@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* styles for about container */
+.about-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  margin-top: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styles for img in the about me section */
+.image-placeholder {
+  width: 300px;
+  height: 300px;
+  background-color: #f0f0f0;
+  border: 2px solid #e1e4e8;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+/* styles for text in the about me section */
+.info {
+  margin-left: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styles for all h1 headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* transitions styles for route changes */
+.fade-enter {
+  opacity: 0; /* full transparency at start*/
+}
+
+/* fade - full opacity */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+/* full opacity start */
+.fade-exit {
+  opacity: 1;
+}
+
+//fade out - full transparency
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
 }
