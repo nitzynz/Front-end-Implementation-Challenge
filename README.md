@@ -28,17 +28,21 @@ You may also see any lint errors in the console.
 
 
 ### Key Features
-#### Responsive Design: The application is fully responsive, adapting to different screen sizes and devices.
-#### Smooth Transitions: Implemented smooth toggle effects for the "Skills" section using CSS transitions.
-#### Reusable Components: The project utilizes reusable React components to ensure consistency and maintainability.
-#### Accessible UI: The interface is designed with accessibility in mind, ensuring keyboard navigation and screen reader support.
+#### Responsive Design: 
+The application is fully responsive, adapting to different screen sizes and devices.
+#### Smooth Transitions: 
+Implemented smooth toggle effects for the "Skills" section using CSS transitions.
+#### Reusable Components: 
+The project utilizes reusable React components to ensure consistency and maintainability.
+#### Accessible UI: 
+The interface is designed with accessibility in mind, ensuring keyboard navigation and screen reader support.
 
 #### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -48,7 +52,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
